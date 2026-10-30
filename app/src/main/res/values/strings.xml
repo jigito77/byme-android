@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">BYME.AM</string>
+    <string name="offline_title">Нет соединения</string>
+    <string name="offline_text">Проверьте интернет и попробуйте ещё раз.</string>
+    <string name="retry">Повторить</string>
+    <string name="choose_file">Выберите файл или сделайте снимок</string>
+    <string name="no_app">Нет приложения, чтобы открыть это</string>
+    <string name="downloading">Скачивание: %1$s</string>
+    <string name="saved">Сохранено в «Загрузки»: %1$s</string>
+    <string name="save_failed">Не удалось сохранить файл</string>
+    <string name="no_storage">Нет разрешения на сохранение файлов</string>
+</resources>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="offline_title">Կապ չկա</string>
+    <string name="offline_text">Ստուգեք ինտերնետը և նորից փորձեք։</string>
+    <string name="retry">Կրկին փորձել</string>
+    <string name="choose_file">Ընտրեք ֆայլ կամ լուսանկարեք</string>
+    <string name="no_app">Չկա հավելված, որը կբացի սա</string>
+    <string name="downloading">Ներբեռնում՝ %1$s</string>
+    <string name="saved">Պահպանվեց «Downloads»-ում՝ %1$s</string>
+    <string name="save_failed">Չհաջողվեց պահպանել ֆայլը</string>
+    <string name="no_storage">Ֆայլեր պահելու թույլտվություն չկա</string>
+</resources>

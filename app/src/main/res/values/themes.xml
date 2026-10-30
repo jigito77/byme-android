@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="Theme.BYME" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="colorPrimary">@color/brand</item>
+        <item name="colorPrimaryDark">@color/white</item>
+        <item name="colorAccent">@color/brand</item>
+        <item name="android:windowBackground">@color/white</item>
+        <item name="android:statusBarColor">@android:color/transparent</item>
+        <item name="android:navigationBarColor">@android:color/transparent</item>
+        <item name="android:windowLightStatusBar">true</item>
+    </style>
+
+    <!-- экран запуска (до загрузки страницы) -->
+    <style name="Theme.BYME.Splash" parent="Theme.BYME">
+        <item name="android:windowBackground">@drawable/splash</item>
+    </style>
+</resources>
