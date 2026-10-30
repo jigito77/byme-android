@@ -37,8 +37,16 @@ android {
                 storePassword = System.getenv("BYME_KEYSTORE_PASSWORD")
                 keyAlias = System.getenv("BYME_KEY_ALIAS")
                 keyPassword = System.getenv("BYME_KEY_PASSWORD")
+                enableV1Signing = true
+                enableV2Signing = true
             }
         }
+    }
+
+    // v1 + v2: некоторые установщики (MIUI и др.) отказываются от APK только с v2-подписью
+    signingConfigs.getByName("debug") {
+        enableV1Signing = true
+        enableV2Signing = true
     }
 
     buildTypes {
